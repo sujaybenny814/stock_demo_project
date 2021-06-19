@@ -1,0 +1,93 @@
+
+
+<div class="header">
+    <h1 class="headerTitle">
+        {{companyDetails.name}}
+    </h1>
+</div>
+
+        <div class="parent">
+              
+                    <div class="elemets">
+                            <div class="child">
+                                <div>
+                                    Market Cap  
+                                </div>
+                                <div class="resultColour">
+                                    <span>&#8377;</span> {{companyDetails.marketCap}}
+                                </div>
+                            </div>
+                            <div class="child">
+                                <div>
+                                    Dividend Yield
+                                </div>
+                                <div class="resultColour">
+                                    {{companyDetails.dividendYield}}%
+                                </div>
+                            </div>
+                            <div class="child">
+                                <div>
+                                    Deb To Equity 
+                                </div>
+                                <div class="resultColour">
+                                    {{companyDetails.debToEquity}}%
+                                </div>
+                            </div>
+                    </div>
+                    <div class="elemets">
+                        <div class="child">
+                            <div>
+                                Current Market Price 
+                            </div>
+                            <div class="resultColour">
+                                <span>&#8377;</span>   {{companyDetails.currentMarketPrice}}
+                            </div>
+                        </div>
+                        <div class="child">
+                            <div>
+                                Roce
+                            </div>
+                            <div class="resultColour">
+                                 {{companyDetails.roce}}%
+                            </div>
+                        </div>
+                        <div class="child">
+                            <div>
+                                Eps 
+                            </div>
+                            <div class="resultColour">
+                                <span>&#8377;</span> {{companyDetails.eps}}
+                            </div>
+                        </div>
+                </div>
+                <div class="elemets">
+                    <div class="child">
+                        <div>
+                            Stock PE {{companyDetails.stockPE}}
+                        </div>
+                        <div class="resultColour">
+                            {{companyDetails.stockPE}}%
+                        </div>
+                    </div>
+                    <div class="child">
+                        <div>
+                            Roce Previous Annum 
+                        </div>
+                        <div class="resultColour">
+                            {{companyDetails.rocePreviousAnnum}}%
+                        </div>
+                    </div>
+                    <div class="child">
+                        <div>
+                            Reserves 
+                        </div>
+                        <div class="resultColour">
+                            <span>&#8377;</span> {{companyDetails.reserves}}
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+
+
+
